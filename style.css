@@ -71,6 +71,7 @@ body {
     border-radius: 50px;
     margin: 0 40px;
     text-align: center;
+    cursor: pointer;
 }
 
 #main #left-img {
@@ -95,4 +96,13 @@ h5 {
     left: 50%;
     transform: translate(-50%, 0);
     font-size: 20px;
+    border: 1px solid #fff;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+h5:hover {
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
 }
